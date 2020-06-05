@@ -77,5 +77,23 @@ namespace RoomInspections.Properties {
                 return ResourceManager.GetString("csvSettings", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Something went wrong with saving the Student File. Please make sure no other process has it opened..
+        /// </summary>
+        internal static string ErrorWithSaving {
+            get {
+                return ResourceManager.GetString("ErrorWithSaving", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        internal static string FrmRoomInspection_SaveStuff_Error {
+            get {
+                return ResourceManager.GetString("FrmRoomInspection_SaveStuff_Error", resourceCulture);
+            }
+        }
     }
 }

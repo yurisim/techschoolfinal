@@ -249,9 +249,18 @@ namespace RoomInspections
 		/// </summary>
 		private void SaveStuff()
 		{
-			using (var StudentDataWriter = new XmlTextWriter(Str_DBFileName, null))
+			try
 			{
-				datRoomAssignments.Tables["RoomAssignment"].WriteXml(StudentDataWriter, 0);
+				using (var StudentDataWriter = new XmlTextWriter(Str_DBFileName, null))
+				{
+					datRoomAssignments.Tables["RoomAssignment"].WriteXml(StudentDataWriter, 0);
+				}
+			}
+			catch
+			{
+				MessageBox.Show(
+					Resources.ErrorWithSaving,
+					Resources.FrmRoomInspection_SaveStuff_Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 		}
 	}

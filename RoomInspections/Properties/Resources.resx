@@ -123,4 +123,10 @@
   <data name="csvSettings" xml:space="preserve">
     <value>@"Provider=Microsoft.ACE.OLEDB.16.0; Data Source={0};Extended Properties=""Text;HDR=YES;FMT=Delimited(,)"""</value>
   </data>
+  <data name="ErrorWithSaving" xml:space="preserve">
+    <value>Something went wrong with saving the Student File. Please make sure no other process has it opened.</value>
+  </data>
+  <data name="FrmRoomInspection_SaveStuff_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
 </root>
