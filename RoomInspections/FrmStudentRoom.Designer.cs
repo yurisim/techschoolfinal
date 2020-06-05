@@ -74,7 +74,7 @@
 			this.btnSave.TabIndex = 34;
 			this.btnSave.Text = "&Save";
 			this.btnSave.UseVisualStyleBackColor = true;
-			this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+			this.btnSave.Click += new System.EventHandler(this.BtnSave_Click);
 			// 
 			// tabCurrentStudent
 			// 
@@ -191,7 +191,7 @@
 			this.tabStudentData.SelectedIndex = 0;
 			this.tabStudentData.Size = new System.Drawing.Size(582, 448);
 			this.tabStudentData.TabIndex = 30;
-			this.tabStudentData.Selected += new System.Windows.Forms.TabControlEventHandler(this.tabStudentData_SelectStudent);
+			this.tabStudentData.Selected += new System.Windows.Forms.TabControlEventHandler(this.TabStudentData_SelectStudent);
 			// 
 			// FrmStudentRoom
 			// 

@@ -1,14 +1,6 @@
 ﻿/* A1C Sim
  * Revision: BETA 2.0
  * Desc: Manages Room Inspections
- *
- * TODO: Export the Strea
- *
- * TODO: Export failures
- *
- * TODO: Make a form for adding a student that appears in FrmStudentRoom when "add student is clicked:
- *
- * TODO: Make a TODO List
  */
 
 using System;

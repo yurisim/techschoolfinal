@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RoomInspections
@@ -71,7 +68,7 @@ namespace RoomInspections
 			}
 		}
 
-		private void tabStudentData_SelectStudent(object sender, TabControlEventArgs e)
+		private void TabStudentData_SelectStudent(object sender, TabControlEventArgs e)
 		{
 			ConfigurePage(tabStudentData.SelectedIndex);
 		}
@@ -131,7 +128,7 @@ namespace RoomInspections
 			return new List<string> {string.Concat(AutoFailures), string.Concat(Demerits)};
 		}
 
-		private void btnSave_Click(object sender, EventArgs e)
+		private void BtnSave_Click(object sender, EventArgs e)
 		{
 			var strListInspectionState = CheckFailures(out bool blnFail);
 
